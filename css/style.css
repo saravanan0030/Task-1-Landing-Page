@@ -1,0 +1,69 @@
+ 
+ 
+ 
+ 
+ #icon{
+   position: absolute;
+    top: -58px;
+    left: 50px;
+    z-index: 1;
+ }
+ .navbar a{
+    letter-spacing: 3px;
+    float:   inline-end;
+    color: rgb(255, 250, 250);
+    font-size: 15.3px;
+    text-decoration: none;
+    top: 46px;
+    z-index: 1;
+      
+ }
+ .navbar a{
+   display:flex;
+ }
+ #bg{
+    z-index: 0;
+ }
+ .content h2{
+    z-index: 2;
+     color: rgb(243, 242, 242);
+     flex-wrap: wrap;
+     color: white;
+     position: absolute;
+     top: 60%;
+     left: 50%;
+     letter-spacing: 3px;
+     font-weight: 20px;
+     font-size: 4pc;    
+} 
+.content h6{
+    color: white;
+    position: absolute;
+    font-size: 2pc;
+    font-weight: 16px;
+    top: 25%;
+    letter-spacing: 2px;
+    margin: 50px;
+    padding: 6PX;
+}
+.navbar a:hover,
+.navbar a.active{
+    color: orange;
+     
+}
+a:hover:after{
+    width: 40px;
+
+}
+ 
+ .services{
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    margin-bottom: 27px;
+    text-transform: capitalize;
+ }
+ 
+  
