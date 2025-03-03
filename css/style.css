@@ -166,6 +166,45 @@ a:hover:after{
    cursor: pointer;
     
  }
+  /* Responsive Design */
+  @media (max-width: 768px) {
+
+ 
+   .navbar  {
+     display: none;
+     flex-direction: column;
+     width: 100%;
+     background: #1a1f2f;
+     position: absolute;
+     top: 60px;
+     left: 0;
+   }
+ 
+  .content h2{
+    font-size: 3rem;
+  }
+ 
+  .para .head {
+     margin: 10px 0;
+     text-align: center;
+   }
+ 
+   #navbar .menu-toggle {
+     display: flex;
+   }
+ 
+   .services-grid {
+     flex-direction: column;
+   }
+ 
+   .pictur{
+     padding: 69px;
+     gap: 20px;
+ 
+     
+   
+   }
+ }
  
  
  
