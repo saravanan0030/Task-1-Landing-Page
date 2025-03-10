@@ -1,36 +1,57 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Margarine&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Satisfy&display=swap');
-  
-
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
  
- #icon{
-   position: absolute;
-    top: -58px;
-    left: 50px;
-    z-index: 1;
- }
- .navbar a{
-    letter-spacing: 3px;
-    float:   inline-end;
-    color: white;
-    font-size: 15.3px;
-    text-decoration: none;
-    z-index: 1;
-    position:   relative ;
-    bottom: 38rem;
-    left: -40px;
-    padding: 10px;
-    margin: 10px;
-      
- }
- .navbar a{
-   display:flex;
- }
- #bg{
-    z-index: 0;
- }
- .containers p{
-
 }
+
+header{
+ position:  sticky;
+ top: 0;
+ left: 0;
+ width: 100%;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ transition: 0.6s;
+ z-index: 10000;
+  
+ 
+ 
+ }
+ header .logo{
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  letter-spacing: 2px;
+  transition: 0.6s;
+ }
+ header ul{
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ header ul li a{
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+   font-weight: 500px;
+   transition: 0.6s;
+   
+   
+ }
+ .banner{
+ 
+  width: 100%;
+  height: 100vh;
+  z-index: 0;
+  background-size: cover;
+ 
+ }
+ 
+ 
  .content h2{
     z-index: 2;
      color: rgb(243, 242, 242);
@@ -121,18 +142,21 @@ a:hover:after{
     justify-content: center;
  }
  .pictur{
-    top: 20px;
-    display: flex;
-    padding: 10px;
-    padding: 10px;
-    justify-content: space-evenly;
+    
+  display:  flex;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px ;
+   
+    
      
  }
  
  .footer{
    background-color:#333;
    text-align:center;
-   top: 20rem;
+   margin: 20px;
   
  }
  .social-icon img{
@@ -155,12 +179,19 @@ a:hover:after{
  .company{
    color:#f53b57;
  }
+ .pictur img:hover{
+  transform: scale(1.06);
+  transform: 2s;
+  cursor: pointer;
+   
+}
+ 
 
  @media screen and (min-width:992px){
       
 
  }
- .pictur .pic1 :hover{
+ .pictur p:hover{
    transform: scale(1.06);
    transform: 2s;
    cursor: pointer;
