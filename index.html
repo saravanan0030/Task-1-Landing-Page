@@ -7,116 +7,433 @@
  
     <link rel="icon" href="./img/BUILDSAFE-removebg-preview.png" width="200px" type="img/png">
      <link rel="stylesheet" href="./css/style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
     
 </head>
 <body>
+
+
+<!-- navbar -->
      
-   <header>
-    <img src="./img/BUILDSAFE-removebg-preview.png" class="logo">
-    <ul>
-        <li><a href="#">home</a></li>
-        <li><a href="#">abou</a></li>
-        <li><a href="#">product</a></li>
-        <li><a href="#">contact</a></li>
-        <li><a href="#">end</a></li>
-        <li><a href="#">start</a></li>
-    </ul>
+            <div class="container-fluid ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="navbar">
+            <b class="bold ms-4"> <span>BUILD</span> SAFE</b>
+            <button class="navbar-toggler  " type="button" data-bs-toggle="collapse" data-bs-target="#navbarsupportedcontent">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list  " viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+            
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsupportedcontent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+                    <li class="nav-item">
+                        <a class="nav-link active"aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                   </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#team">Team</a>
+                   </li>
+                   </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#work">Work</a>
+                   </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                   </li>
+                </ul>
+
+            </div>
+            
+        </nav>
 
 
 
 
-
-   </header>
-   <section class="banner">
-    <img src="./img/pexels-pixabay-159358.jpg" class="banner">
-   </section>
+        <div id="carouselExampleCaptions" class="carousel slide ">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+     aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" 
+    aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" 
+    aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/buidsafe-1.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption ">
+        <h5>Your Dream House</h5>
+        <p> Dream house engineering solutions refer to the various technical and creative services needed to turn a house design into a reality. These solutions encompass planning, design, and construction.</p>
+        <p><a href="#" class="btn btn-warning mt-4 mb-4">Learn More</a></p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./img/buidsafe 2.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption  ">
+         <h5>Building And Construction</h5>
+        <p> These solutions encompass planning, design, and construction, often with a focus on innovative and sustainable approaches Providing innovative and sustainable building solutions for residential,industrial projects.</p>
+        <p><a href="#" class="btn btn-warning mt-4 mb-4">Learn More</a></p>
+      </div>
+      </div>
+       <div class="carousel-item">
+      <img src="./img/buidsafe-3.jpg" class="d-block w-100" alt="...">
+      <div class="carousel-caption  ">
+        <h5>Always Dedicated</h5>
+        <p>  Always Dedicated to Your Success pharma" could refer to several aspects within the pharmaceutical industry.It could describe a company's core mission, a specific service offered, or a commitment to quality and innovation</p>
+      <p><a href="#" class="btn btn-warning mt-4 mb-4">Learn More</a></p>
+      </div>
+    </div>
+    </div>
     
-
-
-
-
-
-
-    
- <!------------ 
-      
-    
-    <div class="content">
-        <h2 id="SERVICE">We’re Building Your Future</h2>
-        <h6>Whatever the level of support you require, we are sure that we will
-            have a package that meets your needs.</h6>
-    
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
 </div>
+       
+         <!-- about section -->
+<section class="about section-padding" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 col-12">
+                <div class="about-img">
+                     <img src="./img/about.jpg" alt="." class="img-fluid mt-md-5 "> 
+                </div>
+                </div>
+                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+                    <div class="about-text ">
+                        <h2 class="mt-3 mt-md-0">We Provide Best Quality <br> <span >Services Ever</span></h2>
+                        <p>The company has a team of skilled architects, engineers, and construction professionals who work together to deliver exceptional services to their clients. Our architectural design team is adept at creating innovative and functional building designs that cater to the specific needs of their clients.</p>
+                        <a href="#" class="btn btn-warning"> learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
  
-<section>
-    <div class="services">
-        <h3> OURSERVICES</h3>
-        <div class="containers">
-           <p>Duis aute irure dolor in reprehenderit volupte velit esse cillum fugiat <br>pariature occaecat cupidatat proident culpa. <br></p>
-        </div>
-         
-    </div>
-    <div class="para">
-        <div class="1"> 
-        <h4 class="head">Fast Operations</h4>
-        <p>Cobuild impresses you with fully <br> responsiveness and highly <br>customization.</p> </div>
-        <div class="2">
-            <h4 class="head">Renovation</h4>
-            <p>Cobuild impresses you with fully <br> responsiveness and highly <br> customization.</p>
-        </div>
-         <div class="3">
-            <h4 class="head">Consultation</h4>
-            <p>Cobuild impresses you with fully <br> responsiveness and highly <br> customization.</p>
-         </div>
-       <div class="4">
-        <h4 class="head">Architecture</h4>
-        <p>Cobuild impresses you with fully <br> responsiveness and highly <br> customization.</p>
-       </div>
-</div>
+
 </section>
-
-
-
-
-
-   
-<section>
-    <div class="services">
-        <h3 class="hello" id="WORK">Featured Work</h3>
-    </div>
-    <div class="containers">
-        <p>Duis aute irure dolor in reprehenderit volupte velit esse cillum fugiat  <br>pariature occaecat cupidatat proident culpa. <br> </p>
-      
-    </div>
-    <p class="paras">All     /Building  /   Construction / Planning</p>
-
-    <div class="pictur">
-         
-            <img src="./img/conts-1.jpg" alt="p" width="300PX">
-            <img src="./img/conts-2.jpg" alt="p" width="300PX">
-            <img src="./img/conts-3.jpg" alt="p" width="300px">
-            <img src="./img/conts-4.jpg" alt="p" width="300px">
-            <img src="./img/conts-5.jfif" alt="p" width="300px">
-            <img src="./img/conts-6.jfif" alt="p" width="300px">
+       
     
-</div>
-</section>
-<footer class="footer">
-    <div class="section-center">
-        <div class="social-icons">
-            <a href="#" class="social-icon">
-                <img src="./image/facebook_180205.png" alt="pic">
-                <img src="./image/twitter_123728.png" alt="pic">
-                <img src="./image/instagram-logo_87390.png" alt="pic">
-            </a>
+ <!-- service section -->
+  <section class="services section-padding" id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5 ">
+            <h2>Our Services</h2>
+            <p>  services like landscaping, concrete work, <br> and building plan approval.</p>
+          </div>
         </div>
-        <h4 class="footer-text">
-            $copy; 2024
-            <span class="company">EFC Nation</span>
-            all right reserved
-        </h4>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4 pb-4">
+            <div class="card text-white text-center bg-dark ">
+              <div class="card-body">
+                <i class="bi bi-subtract"></i>
+                <h3 class="card-title">Best Quality</h3>
+                <p class="lead"> At its core, quality in construction means that a project is completed within the defined guidelines set out in the Scope of Work. This document project.</p>
+                <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </div>
+           <div class="col-12 col-md-12 col-lg-4 pb-4">
+            <div class="card text-white text-center bg-dark">
+              <div class="card-body">
+                 <i class="bi bi-playstation"></i>
+                <h3 class="card-title">Sustainabilly</h3>
+                <p class="lead"> designing, building, and operating structures in a way that minimizes their environmental impact while maximizing social and economic benefits.</p>
+                <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </div>
+           <div class="col-12 col-md-12 col-lg-4 ">
+            <div class="card text-white text-center bg-dark ">
+              <div class="card-body">
+               <i class="bi bi-slack"></i>
+                <h3 class="card-title"> Integrity  </h3>
+                <p class="lead">   the quality of adhering to standards, regulations, and ethical principles, ensuring the safety, reliability, and long-term functionality of the structure.</p>
+                <button class="btn btn-warning text-dark">Read More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+  </section>
 
-</footer> -->
+
+  <!-- portfolio section -->
+
+  <section class="portfolio section-padding" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-4">
+            <h2>Our Project</h2>
+            <p>the organized process of building, renovating, or <br>adapting structures like buildings, bridges, or tunnels</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4 pb-4">
+          <div class="card  text-center bg-white ">
+            <div class="card-body text-dark">
+              <div class="img area mb-4">
+                <img src="./img/project-1.jfif" alt="" class="img-fluid">
+              </div>
+              <h3 class="card-title">Public Private Partnership</h3>
+              <p class="lead">A Public Private Partnership (PPP) involves a construction project which has been commissioned, financed or controlled by both a public and private entity</p>
+             <button class="btn bg-warring text-dark">Learn More</button>
+            </div>
+          </div>
+        </div>
+         <div class="col-12 col-md-12 col-lg-4 pb-4">
+          <div class="card  text-center bg-white ">
+            <div class="card-body text-dark">
+              <div class="img area mb-4">
+                <img src="./img/project-2.jfif" alt="" class="img-fluid">
+              </div>
+              <h3 class="card-title"> Public Project</h3>
+              <p class="lead"> A public project is a project which is predominantly funded by a government body and will be maintained/operated by the government when in service</p>
+             <button class="btn bg-warring text-dark">Learn More</button>
+            </div>
+          </div>
+        </div>
+
+         <div class="col-12 col-md-12 col-lg-4 pb-4">
+          <div class="card  text-center bg-white pb-2">
+            <div class="card-body text-dark">
+              <div class="img area mb-4">
+                <img src="./img/project-3.jfif" alt="" class="img-fluid">
+              </div>
+              <h3 class="card-title">Private Project</h3>
+              <p class="lead"> Unlike public construction projects, private construction projects are commissioned, funded or controlled by a private entity such as individual developers, private corporation.</p>
+             <button class="btn bg-warring text-dark">Learn More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- team section -->
+
+  <section class="team section-padding" id="team">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ">
+           <div class="text-center .section-header pb-5">
+            <h2>Our Team</h2>
+            <p>project managers, supervisors, skilled laborers, and specialized <br> tradespeople like electricians, plumbers, and carpenters</p>
+           </div> 
+        </div>
+      </div>
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3 pb-6 pb-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <div class="img img-fluid">
+              <img src="./img/team-1.webp" alt="" class="img-fluid rounded-circle">
+              <h2 class="card-title py-2">Jack Wilson</h2>
+              <p class="card-text">responsible for securing the necessary funding for the entire project</p>
+              <p class="socials">
+                <i class="bi bi-twitter text-dark mx-1"></i>
+                 <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                   <i class="bi bi-instagram text-dark mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+         </div>
+
+           <div class="col-12 col-md-6 col-lg-3 pb-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <div class="img img-fluid">
+              <img src="./img/team-2.jpg" alt="" class="img-fluid rounded-circle">
+              <h2 class="card-title py-2">James</h2>
+              <p class="card-text">They raise capital, manage financial risks, and ensure the funds are allocated throughout the all project phases, from design.</p>
+              <p class="socials">
+                <i class="bi bi-twitter text-dark mx-1"></i>
+                 <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                   <i class="bi bi-instagram text-dark mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ <div class="col-12 col-md-6 col-lg-3 pb-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <div class="img img-fluid">
+              <img src="./img/team-4.jpg" alt="" class="img-fluid rounded-circle">
+              <h2 class="card-title py-2">Michael</h2>
+              <p class="card-text">collaborate to plan, design, and execute construction projects The composition of a construction team can vary depending project.</p>
+              <p class="socials">
+                <i class="bi bi-twitter text-dark mx-1"></i>
+                 <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                   <i class="bi bi-instagram text-dark mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+    </div>
+        <div class="col-12 col-md-6 col-lg-3 pb-4">
+        <div class="card text-center">
+          <div class="card-body">
+            <div class="img img-fluid">
+              <img src="./img/team-3.jpg" alt="" class="img-fluid rounded-circle">
+              <h2 class="card-title py-2">Jane Smith</h2>
+              <p class="card-text">A contractor is a skilled professional who provides services to clients for a specific duration or project</p>
+
+
+              <p class="socials">
+                <i class="bi bi-twitter text-dark mx-1"></i>
+                 <i class="bi bi-facebook text-dark mx-1"></i>
+                  <i class="bi bi-linkedin text-dark mx-1"></i>
+                   <i class="bi bi-instagram text-dark mx-1"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+
+  </section>
+        
+ 
+<!-- work section -->
+
+
+
+<section>
+  <div class="work section-padding" id="work">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="section-header text-center pb-4">
+                <h3>Featured Work</h3>
+                <p>Duis aute irure dolor in reprehenderit volupte velit esse cillum fugiat  <br>pariature occaecat cupidatat proident culpa. <br> </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-lg-4 col-md-6 pb-4">
+            <div class="img scal area mp-4" >
+              <img src="./img/conts-1.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 pb-4">
+            <div class="img scal area mp-4" >
+              <img src="./img/conts-2.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 col-md-6 pb-4">
+            <div class="img scal area mp-4" >
+              <img src="./img/conts-3.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+
+         <div class="col-12 col-lg-4 col-md-6 pb-4">
+            <div class="img area mp-4" >
+              <img src="./img/conts-4.jpg" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-6 pb-4">
+            <div class="img scal area mp-4" >
+              <img src="./img/conts-5.webp" alt="" class="img-fluid">
+            </div>
+        </div>
+
+        <div class="col-12 col-lg-4 col-md-6 pb-4 ">
+            <div class="img scal area mp-4" >
+              <img src="./img/conts-1.jpg" alt="" class="img-fluid h-9">
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- contact section -->
+ 
+
+  <div class="contact section-padding" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 ">
+           <div class="text-center .section-header pb-5">
+            <h2>Contact Us</h2>
+            <p> contact form, an email address, a contact phone number, a live chat option, a text number,<br> an FAQ, and links to a help center or guides</p>
+           </div> 
+        </div>
+      </div>
+    </div>
+<div class="row m-0">
+  <div class="col-md12 p-0 pt-4 pb-4 p-5">
+     <form action="#" class="bg-light p-4 m-auto">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="mb-3">
+          <input type="text" class="form-control" required placeholder="Your Full Name">
+        </div>   
+      </div>
+      <div class="col-md-12">
+        <div class="mb-3">
+          <input type="email" class="form-control"  required placeholder="Your Email Here">
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="mb-3">
+          <textarea name="" rows="3" required class="form-control" placeholder="Your Query Here"></textarea>
+        </div>
+      </div>
+      <button class="btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+    </div>
+    </form>
+  </div>
+</div>
+</div>
+
+
+
+<!-- footer -->
+
+<footer class="bg-dark p-1 text-center">
+  <div class="container">
+    <p class="text-white">ALL Right @k.saravanan0030@gmail.com</p>
+  </div>
+
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+
 </body>
 </html>

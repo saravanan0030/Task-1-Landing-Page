@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fff8bf25-17e7-4a48-8257-384f683509fe" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/pexels-pixabay-159358.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +48,7 @@
       <updated>1740833793284</updated>
       <workItem from="1740833796043" duration="32000" />
       <workItem from="1740852062617" duration="6000" />
+      <workItem from="1749609391506" duration="5000" />
     </task>
     <servers />
   </component>
