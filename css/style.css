@@ -169,8 +169,5 @@ span{
  .scal{
    overflow: hidden;
  }
- .card img:hover{
-   transform: scale(1.5);
-   transition: 1s;
- }
+ 
  
